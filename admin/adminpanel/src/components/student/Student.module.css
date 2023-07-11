@@ -1,0 +1,93 @@
+.studentModelDiv{
+    height: 100%;
+    width: 100%;
+    padding:0px 5px;
+ background-color: #001529;
+
+}
+.studentInfo{
+
+}
+
+.studentInfo div{
+
+}
+
+.studentBtn{
+  display:  flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: #001529;
+  border-radius: 5px;
+}
+.studentBtn select{
+ padding: 8px;
+ border-radius:5px;
+ outline: none;
+ font-size: 14px;
+}
+
+
+
+.Name{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  color: #e4dfdf;
+}
+.Name div{ 
+   
+    width: 100%;
+  
+  }
+
+.Name div input {
+padding: 8px;
+width: 100%;
+margin:3px 0px;
+border-radius: 5px;
+outline: none;
+color:#e4dfdf;
+background-color: transparent;
+border: 0.3px solid #e4dfdf;
+};
+
+.Name div input::placeholder{
+    color:#e4dfdf;
+}
+
+.boardInfoData{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ padding:30px 0px;
+ margin-bottom:10px;
+ background-color: #001529;
+}
+
+
+.boardInfoData div{
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 100px;
+  background-color: #fff;
+  border: 0.3px solid lightgray;
+  text-align: center;
+  align-items: center;
+ padding: 15px 0px;
+border-radius: 4px;
+ font-style: italic;
+}
+
+.boardInfoData div section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}

@@ -1,0 +1,124 @@
+.adminContenars{
+    height: 100%;
+   background-color:#001529;
+    width: 100%;
+
+ 
+}
+
+.adminStatics{
+    height: auto;
+    width: 100%;
+    padding-top:30px;
+    display: flex;
+    justify-content: space-around;
+ 
+    align-items: center;
+     
+}
+
+.adminStatics div {
+    height: 82px;
+    width:16%;
+    border-radius:5px;
+    background-color: #e4e0e023;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3px solid #d6d4d4;
+    flex-direction: column;
+   gap: 4px;
+}
+
+.adminStatics div section {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.adminStatics div h3{
+font-style: italic;
+text-transform: capitalize;
+font-size: 14px;
+font-weight: 600;
+color: #fff;
+}
+.adminnew{
+    width: 100%;
+    text-align: right;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding:40px 30px 0px 30px;
+  /* background-color: #fff; */
+
+}
+
+.adminnew button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #1677FF;
+    border: none;
+    color: #fff;
+    gap: 2px;
+     
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.adminnew button:hover{
+   background-color: #0a60cf;
+   transition: 250ms ease-in-out;
+}
+
+.searchadmin{
+    display: flex;
+    width: 350px;
+     height: 42px;
+    
+    background-color:#fff;
+    justify-content: center;
+    align-items: center;
+    
+  border-radius: 4px ;
+}
+  
+.searchadmin input{
+ height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+     border: 0.3px solid #d6d4d4;
+     padding: 0px 10px;
+     border-radius: 4px 0px 0px 4px;
+ 
+     background: #fff;
+}
+  
+.searchadmin p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   border-radius: 0px 4px 4px 0px;
+   padding: 0px 8px;
+}
+
+
+.adminTable{
+    height: auto;
+    width: 100%;
+    padding:20px 20px 0px 20px;
+    border-radius: 8px;
+}
+  
+
+ 

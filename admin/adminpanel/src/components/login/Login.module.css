@@ -1,0 +1,92 @@
+.loginConteinar{
+    height:90vh ;
+    width: 100vw;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  /* background-color: lightgray; */
+}
+
+.loginsubConteinar{
+  height: auto;
+  background-color:#fff;
+  width:500px;
+  border: 1px solid rgb(250, 214, 214);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 20px;
+  box-sizing: 0px 0px 1px 1px lightgray;
+  
+}
+
+.logoIcon{
+    height: 80px;
+    width: 80px;
+    border-radius: 180px;
+ 
+    background-color: aquamarine;
+}
+
+
+.logoIcon img {
+height:100%;
+width: 100%;
+}
+.loginHeading{
+    font-size: 22px ;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    width:  100%;
+   border-radius: 4px;
+ color: rgb(102, 95, 95);
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   /* background-color: cornflowerblue; */
+
+}
+.LoginBtn{
+ margin: 20px 0px 10px 0px;
+
+}
+ form{
+    width: 100%;
+    padding: 10px 30px;
+}
+
+form div {
+ display: flex;
+ 
+  flex-direction: column;
+}
+
+sup {
+    color: red;
+}
+form div label{
+    margin: 3px 0px;
+    font-size: 14px;
+}
+form div input {
+    padding:10px 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+}
+
+.forgetPassword {
+ text-align: right;
+    font-size: 14px;
+  cursor: pointer;
+   padding-right:5px;
+}

@@ -1,0 +1,1435 @@
+.mainbox{
+    height:100%;
+    width: 100%;
+    background-image: url("../../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.headingTitle{
+  text-align: center;
+
+ 
+}
+
+.headingTitle h1{
+  text-align: center;
+  padding: 20px;
+  font-size:30px;
+  background-color:rgba(26, 25, 24, 0.596);
+ color: #FFFFFF;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 39%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 22px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 28px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 10px 20px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 17.3px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+
+
+
+.courseContenar{
+    height: auto;
+    width: 100%;
+    
+    display: flex;
+    padding: 20px 10px;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+.courseCard{
+   height: auto;
+    width: 25%;
+ 
+    background-color: #ffffff;
+    display: flex;
+   border-radius: 8px;
+   padding: 15px 10px;
+    justify-content: space-between;
+  flex-direction: column;
+  color: black;
+}
+
+.courseCard img{
+    height:250px;
+    width: 100%;
+   border-radius: 8px;
+   transition: transform .5s ease;
+
+    background-color: #ebe6e6;
+ margin-bottom: 10px;
+}
+.courseHeading{
+   height: 40px;
+}
+ 
+.courseCard:hover{
+ 
+    background: #413655;
+    color: #fff;
+    transition: 500ms ease;
+}
+.courseCard img:hover{
+    transform: scale(1.03);
+
+}
+.boardClassSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 20px; 
+    background-color: #ebe6e6;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+
+.boardLogo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin: 5px 0px;
+  
+}
+
+
+.boardLogo span{
+    font-size: 16px ;
+ 
+    font-family: 'Roboto', sans-serif;
+    
+    font-weight: 600;
+    color: #413655;
+}
+.ClassSection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+    margin: 5px 0px;
+
+}
+
+.ClassSection span{
+    font-size: 16px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #413655;
+}
+.hrLine{
+    margin: 10px;
+    
+}
+ 
+
+
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+    text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size: 13.2px;
+
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+@media (max-width:1250px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        gap: 20px;
+    }
+    .courseCard{
+       height: auto;
+        width:38%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  15px;
+        justify-content: center;
+      flex-direction: column;
+    
+      color: black;
+    }
+    
+    .courseCard img{
+        height:270px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    .boardLogo span{
+        font-size: 14px ;
+      font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+    .ClassSection{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .ClassSection span{
+        font-size: 14px ;
+         font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+/* ========================================= */
+
+.headingTitle h1{
+  text-align: center;
+  padding: 18px;
+  font-size:30px;
+ color: #fdc8c8;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 50%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 21px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 10px 20px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 17.1px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+
+/* ========================================= */
+    
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+    text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+    /* flex-direction: column; */
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin:4px;
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+  /* width: 100%; */
+   margin: 5px;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+   font-size: medium;
+   /* flex-direction: column; */
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+
+     
+}
+ 
+@media (max-width:970px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        gap: 10px;
+    }
+    .courseCard{
+       height: auto;
+        width: 40%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  15px;
+        justify-content: center;
+      flex-direction: column;
+
+      color: black;
+    }
+    
+    .courseCard img{
+        height:270px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    .boardLogo span{
+        font-size: 14px ;
+      font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+    .ClassSection{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .ClassSection span{
+        font-size: 14px ;
+         font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+
+    
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+  flex-direction: row;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin:4px;
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+  width: fit-content;
+   margin: 5px;
+   
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size:16px;
+ 
+
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+
+     
+}
+
+ @media (max-width:870px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 30px;
+    }
+    .courseCard{
+       height: auto;
+        width: 47%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  15px;
+        justify-content: center;
+      flex-direction: column;
+
+      color: black;
+    }
+    
+    .courseCard img{
+        height:270px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    .boardLogo span{
+        font-size: 14px ;
+      font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+    .ClassSection{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .ClassSection span{
+        font-size: 14px ;
+         font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+/* ================================================ */
+
+
+.headingTitle h1{
+  text-align: center;
+  padding: 18px;
+  font-size:25px;
+  background-color:rgba(26, 25, 24, 0.596);
+ color: #fdc8c8;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 70%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 21px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 10px 20px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 17.1px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+/* ================================================== */
+    
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+     flex-direction: column;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin:4px;
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+  width: 100%;
+   margin: 5px;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size: 14px;
+  /* flex-direction: column; */
+
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+
+     
+}
+
+
+@media (max-width:700px) {
+
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+       
+        gap: 30px;
+    }
+    .courseCard{
+       height: auto;
+        width: 47%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  10px;
+        justify-content: center;
+      flex-direction: c
+      olumn;
+
+      color: black;
+    }
+    
+    .courseCard img{
+        height:270px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    .boardLogo span{
+        font-size: 13px ;
+      font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+    .ClassSection{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .ClassSection span{
+        font-size: 14px ;
+         font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #413655;
+    }
+/* ==================================================== */
+
+.headingTitle h1{
+  text-align: center;
+  padding: 18px;
+  font-size:30px;
+  background-color:rgba(26, 25, 24, 0.596);
+ color: #fdc8c8;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 70%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 18px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 17px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 10px 20px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 16px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+/* ==================================================== */
+    
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+     flex-direction: column;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin:4px;
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+  width: 100%;
+   margin: 5px;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size: 16px;
+  flex-direction: column;
+
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+
+     
+}
+
+@media (max-width:570px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         flex-direction: column;
+        gap: 25px;
+    }
+    .courseCard{
+       height: auto;
+        width: 90%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  25px;
+        justify-content: center;
+      flex-direction: column;
+
+      color: black;
+    }
+    
+    .courseCard img{
+        height:270px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    /* ==================================================== */
+
+.headingTitle h1{
+  text-align: center;
+  padding: 18px;
+  font-size:20px;
+  background-color:rgba(97, 74, 63, 0.596);
+ color: #fdc8c8;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 90%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 18px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 17px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 8px 25px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 16px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+/* ======================================== */
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+    flex-direction: row;
+}
+
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700
+}
+.enrollbtn{
+    padding: 8px 8px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size: 14px;
+   color: #ffffff;
+   width: fit-content;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size: 13.5px;
+  flex-direction: row;
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+   
+    font-weight: 600;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    font-weight: 600;
+}
+
+
+     
+}
+
+
+@media (max-width:470px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 20px;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .courseCard{
+       height: auto;
+        width: 100%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  15px;
+        justify-content: center;
+      flex-direction: column;
+
+      
+    }
+    
+    .courseCard img{
+        height:250px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    
+.boardLogo span{
+    font-size: 17px ;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #413655;
+}
+.ClassSection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+    margin: 5px 0px;
+
+}
+
+.ClassSection span{
+    font-size: 17px ;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #413655;
+}
+.hrLine{
+    margin: 10px;
+    
+}
+ 
+
+
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+    flex-direction: column;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 5px 0px;
+    font-weight: 700
+
+}
+.enrollbtn{
+    padding: 8px 10px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size:16px;
+   color: #ffffff;
+   margin: 5px 20px;
+   width: 100%;
+  
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size:20px;
+ 
+  flex-direction: column;
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+ 
+   text-align: center;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    text-align: center;
+    width: 100%;
+}
+
+}
+
+
+@media (max-width:367px) {
+    .courseContenar{
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 20px 10px;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .courseCard{
+       height: auto;
+        width: 100%;
+        padding: 0;
+        background-color: #ffffff;
+        display: flex;
+       border-radius: 8px;
+       padding: 15px  15px;
+        justify-content: center;
+      flex-direction: column;
+
+      color: black;
+    }
+        /* ==================================================== */
+
+.headingTitle h1{
+  text-align: center;
+  padding: 18px;
+  font-size:20px;
+  background-color:rgba(26, 25, 24, 0.596);
+ color: #fdc8c8;
+}
+
+.fistHeqding{
+  width: 100%;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fistHeqding div {
+  text-align: justify;
+  height: auto;
+  padding: 10px 0px;
+  margin-top: 20px;
+ 
+  width: 90%;
+}
+.fistHeqding div span{
+
+  color: #FF6575;
+  font-size: 15px;
+ margin: 10px 0px;
+ font-weight: 500;
+}
+
+.fistHeqding div h4{
+  color:#413655;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin: 8px 0px ;
+
+}
+
+.fistHeqding h3{
+  padding: 8px 25px;
+  border-radius:20px;
+  border: 2px solid #413655 ;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #413655;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fistHeqding div p{
+  font-size: 14px;
+  line-height: 23px;
+  color: #413655;
+}
+.fistHeqding h3:hover{
+  transition: 450ms ease;
+  background-color: #fff;
+  color: #413655;
+}
+/* ======================================== */
+    
+    .courseCard img{
+        height:250px;
+        width: 100%;
+       border-radius: 8px;
+       transition: transform .5s ease;
+    
+        background-color: #ebe6e6;
+     margin-bottom: 10px;
+    } 
+
+    
+.boardLogo span{
+    font-size: 12px ;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #413655;
+}
+.ClassSection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+    margin: 5px 0px;
+
+}
+
+.ClassSection span{
+    font-size: 12px ;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #413655;
+}
+.hrLine{
+    margin: 10px;
+    
+}
+ 
+
+
+.enrollSection{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 10px;
+       text-transform:capitalize;
+    background-color: #eecece;
+    border-radius: 7px;
+    color: #413655;
+    flex-direction: column;
+}
+
+.enrollSection span{
+  font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 5px 0px;
+    font-weight: 700
+
+}
+.enrollbtn{
+    padding: 8px 10px ;
+    background-color: #1677FF;
+    border-radius: 5px;
+ 
+   outline: none;
+   border: none;
+   font-size:16px;
+   color: #ffffff;
+   margin: 5px 20px;
+   width: 100%;
+}
+.enrollbtn:hover{
+  transition: 450ms ease;
+  background-color: #FF6575;
+  color: #fff;
+}
+
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:8px 10px ;
+     text-transform:capitalize;
+  font-size:18px;
+ 
+  flex-direction: column;
+}
+
+.classText{
+ 
+     font-family: 'Roboto', sans-serif;
+ 
+   text-align: center;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.price{
+ 
+     font-family: 'Roboto', sans-serif;
+    color:#FF6575;
+    text-align: center;
+    width: 100%;
+}
+
+}

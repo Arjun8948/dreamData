@@ -1,0 +1,86 @@
+.enuiryDiv {
+    height: 100vh;
+    width: 100%;
+    background-color: #001529;
+   
+}
+
+.enuiryHeadDetels {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.enuiryHeadDetels div {
+    height: 70%;
+    width: 17%;
+    background-color: #e4e0e023;
+    border-radius: 5px;
+    border: 0.5px solid hsl(0, 4%, 90%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.enuiryHeadDetels div section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.enuiryDiv table {
+    border: none;
+    width: 100%;
+    background-color: #e4e0e023;
+    /* padding: 10px; */
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.enuiryDiv table thead {
+    border: none;
+    width: 100%;
+
+    border-radius: 5px 5px 0 0;
+
+    color: antiquewhite;
+    border: none;
+}
+
+.enuiryDiv table thead th {
+    padding: 10px;
+    color: gray;
+}
+.mainTableContairs {
+    display: flex;
+    padding: 10px;
+
+}
+
+
+.enuiryDiv table tbody {
+
+    background-color: #fff;
+}
+
+
+.enuiryDiv table tbody td {
+    padding:10px 2px;
+    border-bottom: 0.3px solid #dbd9d9;
+    /* font-style: italic; */
+    font-size: 14px;
+}

@@ -1,0 +1,1203 @@
+.mainContenars {
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+
+.contenar {
+    height: calc(100% -60px);
+    background-image: url("../../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.subConntenar {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text {
+    height: auto;
+    width: 70%;
+    padding: 5% 5% 5% 8%;
+
+}
+
+.text h5 {
+    color: #685F78;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.text h1 {
+    color: #002058;
+    font-size: 44px;
+    margin-bottom: 16px;
+    line-height: 55px;
+}
+
+.image {
+    height: auto;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+
+
+.image img {
+    height: 60%;
+    max-width: 60%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+.search input {
+    padding: 8px 14px;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.search button {
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+.reating {
+ 
+     display: flex !important;
+    align-items: center !important; 
+ 
+    /* margin-top: 10px !important;
+    padding: 0 20px !important;  */
+}
+
+.reating h1 {
+    margin: 0 5px;
+    font-size: 37px;
+
+}
+.reating .ratingSize {
+
+    font-size: 14px;
+    margin: 0px 5px;
+
+}
+
+.text p {
+    font-size: 20px;
+    color: #685F78;
+    line-height: 30px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.feature {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: -70px;
+
+
+    /* background-color: red; */
+}
+.feature div {
+    border-radius: 20px;
+    padding: 24px;
+
+    background: #fff;
+    bottom: 8px;
+    width: 20%;
+    height: 110px;
+    border: 0.2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.feature div span {
+    margin:6px 0;
+    line-height: 25px;
+}
+
+.feature div:hover {
+    transition: 100ms ease;
+    bottom: 18px;
+}
+/* course contenars secticon */
+.textGirl {
+    height: auto;
+    width: 100%;
+    background-image: url("../../../assets/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+
+    display: flex;
+
+}
+
+.girlImg {
+    height: auto;
+    width: 45%;
+    
+}
+
+.girlImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.textgirl {
+    height: auto;
+    width: 70%;
+    padding: 30px 50px;
+}
+
+.textHeading h2 {
+    font-size: 30px;
+    font-weight: 650;
+    color: #FF6575;
+}
+.textHeading h3 {
+    font-size: 35px;
+    font-weight: 650;
+    margin: 5px 0;
+    color: #FF6575;
+}
+
+.textHeading p {
+    font-size: 20px;
+    font-weight: 0;
+
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.textCart {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.textCart div {
+    height: 100px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #002058;
+}
+
+.textCart div p {
+    text-transform: capitalize;
+    font: 1.2em sans-serif;
+    font-weight: 540;
+
+}
+
+
+.textCart div:hover {
+    transition: 400ms ease;
+    scale: 1.04;
+    color: #fff;
+    background-color: #685F78;
+
+}
+
+
+/* media query start */
+@media(max-width: 1478px) {
+    .textGirl {
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+
+        display: flex;
+
+    }
+
+    .girlImg {
+        height: auto;
+        width: 40%;
+    }
+
+    .girlImg img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 60%;
+        padding: 10px 29px;
+    }
+
+    .textHeading h2 {
+        font-size: 26px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 30px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 18px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .textCart div {
+        height: 100px;
+        width: 220px;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 20px 0;
+    }
+
+}
+
+@media(max-width: 1358px) {
+    .textGirl {
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+
+        display: flex;
+
+    }
+
+    .girlImg {
+        height: auto;
+        width: 35%;
+    }
+    .girlImg img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 65%;
+        padding: 10px;
+    }
+
+    .textHeading h2 {
+        font-size: 26px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 30px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 18px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .textCart div {
+        height: 110px;
+        width: 220px;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+}
+/* @media(max-width: 1108px) {
+    
+    
+} */
+
+@media(max-width: 1205px) {
+    .text h5 {
+        color: #685F78;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .text h1 {
+        color: #002058;
+        font-size: 30px;
+        margin-bottom: 16px;
+        line-height: 40px;
+    }
+    .textGirl {
+        height: 460px;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+
+        display: flex;
+
+    }
+
+    .girlImg {
+        height: auto;
+        width: 35%;
+
+    }
+    .girlImg img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 65%;
+        padding: 10px;
+    }
+
+    .textHeading h2 {
+        font-size: 22px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 22px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 17px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .textCart div {
+        height: 100px;
+        width: 180px;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+}
+
+
+@media(max-width: 955px) {
+
+
+    .feature {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 100%;
+        /* margin: 22px 0px; */
+
+
+    }
+    .feature div {
+        border-radius: 20px;
+
+        background: #fff;
+
+        width: 40%;
+        height: 130px;
+        border: 0.2px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
+
+
+@media(max-width: 950px) {
+    .subConntenar {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        height: 60%;
+        width: 55%;
+        padding: 3% 30px;
+
+    }
+
+    .text h5 {
+        color: #685F78;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .text h1 {
+        color: #002058;
+        font-size: 24px;
+        margin-bottom: 16px;
+        line-height: 33px;
+    }
+
+    .image {
+        height: 60%;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #fff; */
+    }
+
+
+    .image img {
+        height: 60%;
+        max-width: 60%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .search input {
+
+        width: 100%;
+    }
+
+
+    .reating h1 {
+        margin: 0 5px;
+    }
+    .reating .ratingSize {
+
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .text p {
+        font-size: 14px;
+        color: #685F78;
+        line-height: 16px;
+    }
+
+    .feature {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-self: center;
+        width: 100%;
+        padding: 22px 0;
+        margin-top: 0;
+
+    }
+    .feature div {
+        border-radius: 20px;
+
+        position: relative;
+        background: #fff;
+        bottom: 8px;
+        width: 45%;
+        height: 130px;
+        border: 0.2px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+
+    .feature div:hover {
+        transition: 100ms ease;
+        bottom: 18px;
+    }
+    .textGirl {
+        height: auto;
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+
+        display: flex;
+
+    }
+
+    .girlImg {
+        height: auto;
+        width: 50%;
+  
+    }
+    .girlImg img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .textHeading h2 {
+        font-size: 20px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 20px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 15px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textCart div {
+        height: 100px;
+        width: 180px;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+}
+
+
+@media(max-width: 865px) {
+    .subConntenar {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        height: 60%;
+        width: 55%;
+        padding: 3% 30px;
+
+    }
+
+    .text h5 {
+        color: #685F78;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .text h1 {
+        color: #002058;
+        font-size: 24px;
+        margin-bottom: 16px;
+        line-height: 33px;
+    }
+
+    .image {
+        height: 60%;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #fff; */
+    }
+
+
+    .image img {
+        height: 70%;
+        max-width: 70%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .feature {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-self: center;
+        width: 100%;
+        padding: 22px 0;
+
+
+    }
+    .feature div {
+        border-radius: 20px;
+
+        background: #fff;
+
+        width: 40%;
+        height: 130px;
+        border: 0.2px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .search input {
+
+        width: 100%;
+    }
+
+
+    .reating h1 {
+        margin: 0 5px;
+    }
+    .reating .ratingSize {
+
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .text p {
+        font-size: 14px;
+        color: #685F78;
+        line-height: 16px;
+    }
+    .textGirl {
+
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girlImg {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .girlImg img {
+        height: 80%;
+        width: 80%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .textHeading h2 {
+        font-size: 24px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 22px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 17px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .textCart div {
+        height: 100px;
+        width: 28%;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+}
+
+
+/* 
+==================================== */
+
+@media(max-width: 715px) {
+    .subConntenar {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .text {
+        height: auto;
+        width: 100%;
+
+
+    }
+
+    .text h5 {
+        color: #685F78;
+        font-size: 17px;
+        margin-top: 5px;
+
+    }
+
+    .reating {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text h1 {
+        color: #002058;
+        font-size: 26px;
+
+
+    }
+
+    .image {
+        height: auto;
+        width: 100%;
+        padding: 5px 20px;
+
+    }
+
+
+    .image img {
+        height: 50%;
+        max-width: 70%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .search input {
+
+        width: 100%;
+    }
+    .textGirl {
+
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .girlImg {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .girlImg img {
+        height: 80%;
+        width: 80%;
+    }
+
+    .textgirl {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .textHeading h2 {
+        font-size: 24px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 22px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 17px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .textCart div {
+        height: 100px;
+        width: 45%;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: column;
+        border-radius: 20px;
+
+    }
+    .feature {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-self: center;
+        width: 100%;
+        padding: 22px 0;
+
+    }
+    .feature div {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+
+        width: 90%;
+        height: 120px;
+        border: 0.2px solid lightgray;
+
+
+    }
+
+
+    .search input {
+        margin: 5px 0;
+        width: 100%;
+    }
+    .search button {
+
+        width: 100%;
+
+    }
+
+    .subConntenar {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .text {
+        height: auto;
+        width: 100%;
+
+
+    }
+
+    .text h5 {
+        color: #685F78;
+        font-size: 16px;
+        margin-top: 5px;
+
+    }
+
+    .reating {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+    }
+
+    .text h1 {
+        color: #002058;
+        font-size: 22px;
+
+
+    }
+
+
+    .image {
+        height: auto;
+        width: 100%;
+        padding: 5px 20px;
+
+    }
+
+
+    .image img {
+        height: 70%;
+        max-width: 80%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .textGirl {
+
+        width: 100%;
+        background-image: url("../../../assets/hero.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girlImg {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border:0.3px solid rgb(209, 206, 206);
+        border-radius:10px;
+
+    }
+
+    .girlImg img {
+        height: 80%;
+        width: 80%;
+
+    }
+
+    .textgirl {
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .textHeading h2 {
+        font-size: 20px;
+        font-weight: 650;
+        color: #FF6575;
+    }
+    .textHeading h3 {
+        font-size: 16px;
+        font-weight: 650;
+        margin: 5px 0;
+        color: #FF6575;
+    }
+
+    .textHeading p {
+        font-size: 14px;
+        font-weight: 0;
+
+        margin: 5px 0;
+        text-align: justify;
+
+    }
+
+    .textCart {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .textCart div {
+        height: 80px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+}
+
+
+@media(max-width: 350px) {
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: column;
+        border-radius: 20px;
+
+    }
+
+    .text p {
+        font-size: 16px;
+        color: #685F78;
+        line-height: 26px;
+    }
+
+}

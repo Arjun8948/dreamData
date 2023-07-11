@@ -1,0 +1,30 @@
+ 
+.div .subdiv div{
+    display: flex;
+    margin: 6px 0px;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.div .subdiv div section input{
+  height: 100%;
+  padding: 6px 10px;
+  outline: none;
+  background-color: transparent;
+  border: 0.5px solid rgb(189, 186, 186);
+  border-radius: 3px;
+  color: bisque;
+
+}
+
+.div .subdiv div section select,.subdiv div section option,.subdiv div section input::placeholder{
+  color: bisque;
+
+}
+
+.subdiv div section option{
+
+  color:black;
+  font-size: 16px;
+}

@@ -1,0 +1,736 @@
+.aboutSection {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../../../assets/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  height: 60px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.aboutContaner {
+  height: calc(100% -60px);
+  background-image: url("../../../assets/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutheader {
+  height: auto;
+  padding:10px 0px;
+  background-color: #ffffff93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* background-color: #fff; */
+  margin-top: 1px;
+  margin-bottom:8px;
+}
+
+.aboutheader div {
+  width: 76%;
+  height: auto;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 15px;
+ 
+
+  border-radius: 4px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.aboutFounder {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin: 1px 0px;
+  padding: 20px 0px;
+  background-color: #ffffffc2;
+}
+
+.aboutFounder .aboutFounderImg {
+  height:22rem;
+  width: 32%;
+}
+
+.aboutFounderImg img {
+  width: 100%;
+  height: 100%;
+ 
+  border: 0.3px solid lightgray;
+  border-radius: 7px;
+}
+
+.aboutFounder .aboutFounderText {
+  width: 40%;
+
+  height: auto;
+  padding: 20px 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  line-height: 26px;
+  text-align: justify;
+}
+.aboutFounder .aboutFounderText h2 {
+  padding: 10px 0px;
+  font-size: 22px;
+  color: #0d1117;
+  font-style: italic;
+}
+
+.aboutProblemSalution {
+  height: auto;
+  width: 100%;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin: 1px 0px;
+   background-color: #ffffffc2;
+
+}
+
+.problem {
+  width: 38%;
+  background-color: #fff;
+  height: auto;
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+  border-radius:6px;
+
+  line-height: 26px;
+  text-align: justify;
+}
+.salution {
+  width: 38%;
+  background-color: #fff;
+  height: auto;
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+  border-radius:10px;
+  line-height: 26px;
+  text-align: justify;
+}
+.problemHeading{
+    padding: 5px 0px;
+    margin: 3px 0px;
+    text-align: center;
+    background-color:rgb(253, 181, 181);
+  font-size: 20px;
+  font-weight: 550;
+  font-style: italic;
+  border-radius: 5px;
+  color: #141313;
+}
+.salution p ,.problem p{
+padding: 0px 10px;
+}
+.support {
+  height: auto;
+  width: 100%;
+  background-color: #ffffffc2;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  gap: 10px;
+  margin: 1px 0px;
+}
+
+.supportImg {
+  width: 35%;
+  height: 28rem;
+  padding: 5px 5px;
+
+  border-radius: 4px;
+  text-align: justify;
+}
+
+.supportImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.supportform {
+  width: 33%;
+  background-color: #fff;
+  height: auto;
+  padding: 15px 5px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  line-height: 26px;
+  text-align: justify;
+}
+.formhelp {
+  padding: 10px 24px;
+}
+ 
+.formHeading {
+  width: 100%;
+  background-color: #ff6575;
+  padding: 8px 0px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+.helpName div input {
+  padding: 7px;
+  outline: none;
+  border: 0.3px solid lightgray;
+  border-radius: 4px;
+}
+
+.helpName div label {
+  font-size: 14px;
+}
+.helpName div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.helpformbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.helpformbtn button {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff6575;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+.helpformbtn button:hover {
+  transition: 400ms ease-in;
+  background-color: #ff6575;
+  opacity: 1;
+}
+@media (max-width: 860px) {
+  .aboutheader {
+    height: auto;
+    padding: 20px 0px;
+    background-color: #ffffffd5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutheader div {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .aboutGroupImg {
+    height: 350px;
+    background-color: lightcoral;
+  }
+
+  .aboutFounder {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    margin: 3px 0px;
+  }
+
+  .aboutFounder .aboutFounderImg {
+    height: auto;
+    width: 40%;
+
+  }
+
+  .aboutFounder .aboutFounderText {
+    width: 55%;
+ 
+    height: auto;
+    padding: 5px 5px;
+ 
+    border-radius: 4px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .aboutProblemSalution {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0px;
+  }
+
+  .problem {
+    width: 48%;
+    background-color: #fff;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+  }
+  .salution {
+    width: 48%;
+    background-color: #fff;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+
+    text-align: justify;
+  }
+
+  .support {
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    gap: 10px;
+    margin: 3px 0px;
+  }
+
+  .supportImg {
+    width: 48%;
+    background-color: #fff;
+    height: auto;
+    padding: 5px 5px;
+   
+    border-radius: 4px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+  }
+
+  .supportform {
+    width: 48%;
+    background-color: #fff;
+    height: auto;
+    padding: 5px 5px;
+ 
+    border-radius: 4px;
+    line-height: 26px;
+
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutheader {
+    height: auto;
+    padding: 20px 0px;
+    background-color: #ffffffd5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutheader div {
+    width: 95%;
+    height: auto;
+    text-align: justify;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .aboutGroupImg {
+    height: 300px;
+    background-color: lightcoral;
+  }
+
+  .aboutFounder {
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin: 3px 0px;
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .aboutFounder .aboutFounderImg {
+    height: auto;
+    width: 96%;
+    
+  }
+
+  .aboutFounder .aboutFounderText {
+    width: 96%;
+    
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .aboutFounderText h2 {
+    font-size: 30px;
+  }
+  .aboutProblemSalution {
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 3px 0px;
+    padding: 30px 0px;
+  }
+
+  .problem {
+    width: 96%;
+ ;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .salution {
+    width: 96%;
+  
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .support {
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 3px 0px;
+    padding: 20px 0px;
+  }
+
+  .supportImg {
+    width: 96%;
+    background-color: #fff;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .supportform {
+    width: 96%;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutheader {
+    height: auto;
+    padding: 20px 0px;
+    background-color: #ffffffd5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutheader div {
+    width: 96%;
+    height: auto;
+    text-align: justify;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .aboutGroupImg {
+    height: 250px;
+    background-color: lightcoral;
+  }
+
+  .aboutFounder {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    margin: 3px 0px;
+    flex-direction: column;
+  }
+
+  .aboutFounder .aboutFounderImg {
+    height: auto;
+    width: 96%;
+ 
+  }
+
+  .aboutFounder .aboutFounderText {
+    width: 96%;
+ 
+    height: auto;
+    padding: 15px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .aboutProblemSalution {
+    height: auto;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0px;
+    padding: 10px 0px;
+    flex-direction: column;
+  }
+
+  .problem {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .salution {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .support {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin: 3px 0px;
+    padding: 1px 0px;
+  }
+
+  .supportImg {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .supportform {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutheader {
+    height: auto;
+    padding: 20px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutheader div {
+    width: 96%;
+    height: auto;
+    text-align: justify;
+
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aboutGroupImg {
+    height: 250px;
+    background-color: lightcoral;
+  }
+
+  .aboutFounder {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    margin: 3px 0px;
+    flex-direction: column;
+  }
+
+  .aboutFounder .aboutFounderImg {
+    height: auto;
+    width: 96%;
+ 
+
+  
+  }
+
+  .aboutFounder .aboutFounderText {
+    width: 96%;
+ 
+    height: auto;
+    padding: 15px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .aboutFounderText h2 {
+    font-size: 22px;
+    padding: 5px 0px;
+  }
+  .aboutProblemSalution {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0px;
+    padding: 10px 0px;
+    flex-direction: column;
+  }
+
+  .problem {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .salution {
+    width: 95%;
+    font-size: 14px;
+ 
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .support {
+    height: auto;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin: 3px 0px;
+    padding: 10px 0px;
+  }
+
+  .supportImg {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+ 
+    border-radius:10px;
+
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .supportform {
+    width: 95%;
+ 
+    height: auto;
+    padding: 5px 5px;
+ 
+    border-radius:10px;
+    line-height: 26px;
+    text-align: justify;
+  }
+ 
+}
+
+
+

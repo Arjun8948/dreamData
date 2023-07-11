@@ -1,0 +1,891 @@
+footer {
+    height: auto;
+    width: 100%;
+    background-color:#fff;
+}
+.contenars {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 60px;
+    gap: 15px;
+}
+
+
+.subscribe {
+    padding: 4px 10px;
+    border: 0.3px solid lightgray;
+    margin: 16px 0;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.subscribe input {
+    padding: 4px;
+    border: none;
+    outline: none;
+}
+
+.subscribe button {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #FF6575;
+    color: #FFFFFF;
+    font-weight: 500px;
+
+}
+
+.subscribe button:hover {
+    background-color: #e61429;
+}
+
+
+.contenars .logoText {
+    height: 300px;
+    width: 35%;
+
+    text-align: justify;
+}
+.logo {
+    height: 50px;
+    width: 160px;
+    /* margin-left: 45px; */
+    /* background-color: #e61429; */
+}
+
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+.text {
+    padding-right: 80px;
+    line-height: 26px;
+}
+
+.contenars .instractor {
+    height: 300px;
+    width: 20%;
+
+
+}
+
+
+.contenars .student {
+    height: 300px;
+    width: 15%;
+
+}
+
+.contenars .address {
+    height: 300px;
+    width: auto;
+
+}
+.heading {
+    font-size: 22px;
+    font-weight: 550;
+    color: #2F4976;
+}
+
+
+.email,
+.location,
+.phone {
+    display: flex;
+    margin: 18px;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.email span,
+.location span,
+.phone span {
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+
+.copyRight {
+    height: auto;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+    color: #2F4976;
+}
+
+.copyRight .privacy span a {
+    color: #2F4976;
+}
+.Errormassage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+@media(max-width:1350px) {
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 60px;
+
+    }
+    .text {
+        padding: 0 60px 0 0;
+        font-size: 13.7px;
+        line-height: 16px;
+
+    }
+
+}
+
+@media(max-width:1150px) {
+    footer {
+        height: auto;
+
+
+        width: 100%;
+
+    }
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 15px;
+
+    }
+
+
+    .contenars .logoText {
+        height: 250px;
+        width: 35%;
+        text-align: justify;
+
+    }
+    .logo {
+        height: 44px;
+        width: 140px;
+        margin-left: 45px;
+    }
+
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        padding: 0 0 0 20px;
+        font-size: 12.5px;
+
+    }
+
+
+    .contenars .instractor {
+        height: 250px;
+        width: 15%;
+
+
+    }
+
+
+    .contenars .student {
+        height: 250px;
+        width: 15%;
+
+    }
+
+    .contenars .address {
+        height: 250px;
+        width: auto;
+
+    }
+    .heading {
+        font-size: 18px;
+        font-weight: 550;
+        color: #2F4976;
+    }
+
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+    .email,
+    .location,
+    .phone {
+        display: flex;
+        margin: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 12px;
+        margin: 4px 0;
+        cursor: pointer;
+    }
+
+
+    .copyRight {
+        height: auto;
+        padding: 20px 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 13px;
+        color: #2F4976;
+    }
+
+    .copyRight .privacy span a {
+        color: #2F4976;
+    }
+    .heading {
+        font-size: 14px;
+    }
+}
+@media(max-width:950px) {
+    footer {
+        height: auto;
+
+
+        width: 100%;
+
+    }
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        gap: 10%;
+    }
+
+
+    .contenars .logoText {
+        height: auto;
+        width: 50%;
+
+        text-align: justify;
+    }
+    .logo {
+        height: 44px;
+        width: 140px;
+        margin-left: 45px;
+    }
+
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        padding: 0 30px;
+        font-size: 13px;
+        overflow: scroll;
+    }
+
+    .contenars .instractor {
+        height: auto;
+        width: 40%;
+
+
+    }
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+
+
+    .contenars .student {
+        height: auto;
+        width: 40%;
+
+    }
+
+    .contenars .address {
+        height: auto;
+        width: auto;
+
+    }
+    .heading {
+        font-size: 18px;
+        font-weight: 550;
+        color: #2F4976;
+    }
+
+
+    .email,
+    .location,
+    .phone {
+        display: flex;
+        margin: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 12px;
+        margin: 4px 0;
+        cursor: pointer;
+    }
+
+
+    .copyRight {
+        height: auto;
+        padding: 20px 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 13px;
+        color: #2F4976;
+    }
+
+    .copyRight .privacy span a {
+        color: #2F4976;
+    }
+}
+
+
+@media(max-width:860px) {
+    footer {
+        height: auto;
+
+
+        width: 100%;
+
+    }
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        gap: 10%;
+    }
+
+
+    .contenars .logoText {
+        height: auto;
+        width: 50%;
+
+        text-align: justify;
+    }
+    .logo {
+        height: 44px;
+        width: 140px;
+        margin-left: 45px;
+    }
+
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        padding: 0 30px;
+        font-size: 12px;
+        overflow: scroll;
+    }
+
+    .contenars .instractor {
+        height: auto;
+        width: 40%;
+
+
+    }
+
+
+    .contenars .student {
+        height: auto;
+        width: 40%;
+
+    }
+
+    .contenars .address {
+        height: auto;
+        width: auto;
+
+    }
+    .heading {
+        font-size: 18px;
+        font-weight: 550;
+        color: #2F4976;
+    }
+
+
+    .email,
+    .location,
+    .phone {
+
+        display: flex;
+        margin: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 12px;
+        margin: 4px 0;
+        cursor: pointer;
+    }
+
+
+    .copyRight {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 14px;
+        color: #2F4976;
+    }
+
+    .copyRight .privacy span a {
+        color: #2F4976;
+        font-size: 14px;
+    }
+    ul li a {
+        font-size: 14px;
+    }
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+}
+
+
+@media(max-width:670px) {
+    footer {
+        height: auto;
+
+
+        width: 100%;
+
+    }
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+    }
+
+
+    .contenars .logoText {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .logo {
+        height: 42px;
+        width: 140px;
+        padding: 0;
+        margin-left: 0;
+    }
+
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        font-size: 14px;
+        color: #2F4976;
+        padding: 0;
+    }
+
+    .contenars .instractor {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+
+
+    }
+
+
+    .contenars .student {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .contenars .address {
+        height: auto;
+        width: 100%;
+
+    }
+    .heading {
+        font-size: 18px;
+        font-weight: 550;
+        color: #2F4976;
+    }
+
+
+    .email,
+    .location,
+    .phone {
+        display: flex;
+        margin: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 14px;
+        margin: 4px 0;
+        color: #2F4976;
+        cursor: pointer;
+    }
+
+
+    .copyRight {
+        height: auto;
+        padding: 10px 6px;
+
+        font-size: 12px;
+        border-radius: 3px;
+        color: rgb(97, 95, 95);
+    }
+
+    .copyRight .privacy span a {
+        color: rgb(97, 95, 95);
+        font-size: 12px;
+    }
+
+    .copyRight .privacy {}
+
+
+    ul li a {
+        font-size: 14px;
+    }
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+}
+
+@media(max-width:580px) {
+    footer {
+        height: auto;
+
+
+        width: 100%;
+
+    }
+    .contenars {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+    }
+
+
+    .contenars .logoText {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .logo {
+        height: 42px;
+        width: 140px;
+        padding: 0;
+        margin-left: 0;
+    }
+
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+    .text {
+        font-size: 14px;
+        color: #2F4976;
+        padding: 0;
+    }
+
+    .contenars .instractor {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+
+
+    }
+
+
+    .contenars .student {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .contenars .address {
+        height: auto;
+        width: 100%;
+
+    }
+    .heading {
+        font-size: 18px;
+        font-weight: 550;
+        color: #2F4976;
+    }
+
+
+    .email,
+    .location,
+    .phone {
+        display: flex;
+        margin: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 16px;
+        margin: 4px 0;
+        color: #2F4976;
+        cursor: pointer;
+    }
+
+
+    .copyRight {
+        height: auto;
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+         /* background-color: rgb(252, 246, 246);  */
+         align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        font-size: 16px;
+        border-radius: 3px;
+        text-align: center;
+        color: rgb(97, 95, 95);
+    }
+
+    .copyRight .privacy span a {
+        color: rgb(97, 95, 95);
+        font-size: 16px;
+    }
+
+    .copyRight .privacy {
+        margin: 10px 0;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+
+    ul li a {
+        font-size: 14px;
+    }
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+}
+
+
+@media(max-width:440px) {
+    .copyRight {
+        height: auto;
+        padding: 5px 0 10px;
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 16px;
+        color: rgb(97, 95, 95);
+
+    }
+
+
+    .copyRight .privacy {
+        margin: 10px 0;
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .copyRight .privacy span {
+        color: #2F4976;
+
+        margin: 6px 0 0;
+
+    }
+    .copyRight .privacy span a {
+        color: rgb(97, 95, 95);
+
+        font-size: 16px;
+
+
+    }
+
+    ul li a {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:410px) {
+    .copyRight {
+        height: auto;
+        padding: 5px 0 10px;
+        width: 100%;
+        display: flex;
+ text-align: center;
+        align-items: center; 
+         justify-content: center; 
+        flex-direction: column;
+        font-size: 14px;
+        color: #2F4976;
+    }
+
+
+    .copyRight .privacy {
+        margin: 10px 0;
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .copyRight .privacy span {
+        color: #2F4976;
+
+        margin: 6px 0 0;
+
+    }
+    .copyRight .privacy span a {
+        color: #2F4976;
+        font-size: 14px;
+
+
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+    .email span,
+    .location span,
+    .phone span {
+        font-size: 14px;
+        margin: 4px 0;
+        color: #2F4976;
+        cursor: pointer;
+
+    }
+    .location {
+        height: auto;
+    }
+    .subscribe {
+        padding: 4px;
+
+        border: 0.3px solid lightgray;
+        margin: 16px 0;
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        /* background-color: #e61429; */
+
+    }
+
+
+    .subscribe input {
+        padding: 4px;
+        background-color: transparent;
+        outline: none;
+        width: 60%;
+    }
+
+
+    .subscribe button {
+        padding: 4px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+
+        color: #FFFFFF;
+        font-weight: 500px;
+
+    }
+    .Errormassage {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+}
+
+

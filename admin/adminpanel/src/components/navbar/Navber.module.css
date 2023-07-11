@@ -1,0 +1,49 @@
+.header{
+    height: 50px ;
+    width: 100%;
+    /* background-color:lightgray;   */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px; 
+    background-image: url('../../assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+   }
+
+.logo{
+    height: 45px ;
+    width: 150px;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+}
+
+.profile{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.loginBtn {
+    background-color:#0831e7;
+    border: none;
+    padding: 8px 25px;
+    border-radius:5px;
+    font-size: 18px ;
+    color:antiquewhite;
+    cursor: pointer;
+    transition: 450ms ease;
+}
+
+.loginBtn:hover{
+    color:#fff;
+    padding: 8px 26px;
+    background-color:#EF5743;
+}

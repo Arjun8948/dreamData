@@ -1,0 +1,87 @@
+.mainDashContenar {
+    height:100%;
+ 
+   margin-top:10px;
+   background-color: #001529;
+   padding:20px 10px;
+   border-radius: 5px;
+   box-shadow: 0px 00px 1px 1px rgb(204, 202, 202);
+ 
+}
+
+
+.classInfoCart{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.classInfoCarts {
+    width: 50%;
+    background-color: rgb(21, 20, 34);
+    margin: 20px 15px;
+    height: 135px;
+    color: rgb(157, 169, 180);
+    text-transform: capitalize;
+    border-radius: 8px;
+    border: 1.5px solid #eeeaea;
+ box-shadow: -1px 0px 0px -1px rgba(0,0,0,0.63);
+} 
+
+
+.chart{
+   
+    padding: 11px 20px;
+    height:auto;
+    width: 100%;
+ 
+    border-radius: 5px;
+display: flex;
+ 
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+}
+
+.classcartInfoStyle{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 10px;
+}
+
+.classcartInfoStyle1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:2px 10px;
+}
+
+.classcartInfoStyle p,span{
+   font-size: 15px;
+   margin:3px 0px;
+}
+.class{
+  
+ margin: 15px;
+}
+
+ 
+.classstyle {
+    text-align: right;
+    margin:10px;
+    margin-top: 20px;
+}
+
+ 
+.classstyle a{
+    background-color: #007AFF;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: #eeeaea;
+ 
+}

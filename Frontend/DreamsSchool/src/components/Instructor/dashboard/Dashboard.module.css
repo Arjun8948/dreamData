@@ -1,0 +1,175 @@
+.contenar {
+    display: flex;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+}
+
+.sidenav {
+    flex: 2;
+    height: 100%;
+   opacity: 0.9;
+   overflow: scroll;
+  border-right: 1px solid #eeeaea;
+}
+
+.logo {
+  padding: 0px 3px;
+ margin-top: 10px;
+}
+
+.logo div {
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    background-color: #001529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 4px;
+
+}
+
+.logo div img{
+    height: 95%;
+    width: 75%;
+ 
+}
+
+
+.main {
+    flex: 6;
+    background: #EEEAEA;
+    border-right: 1px solid #eeeaea;
+    overflow: scroll;
+    height: 100%;
+    padding: 0 5px;
+    border-right: 0.2px solid lightgray;
+
+}
+
+.mainHeader {
+    height: 60px;
+    width: 100%;
+    background: #001529;
+    position: sticky;
+    top: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 2;
+    border-radius: 5px;
+
+    color: antiquewhite;
+}
+.mainHeader div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color:antiquewhite;;
+
+}
+
+.searcbbox{
+    background-color: #fff;
+    border: 0.5px solid rgb(224, 221, 221);
+   padding:1px; 
+   border-radius: 5px ;
+ }
+ 
+
+.searcbbox input{
+   padding: 4px ;
+   border: none;
+   text-align: center;
+   outline: none;
+}
+
+.searcbbox button{
+    padding: 8px  8px;
+    background-color: #2c5fe9;
+    border: none;
+    outline: none;
+    color: #fff;
+   border-radius:5px ;
+   font-size: 12px;
+   opacity: 0.7;
+}
+
+.searcbbox button:hover{
+    opacity: 1;
+    transition: 450ms ease;
+}
+ 
+
+.profile {
+    flex: 2.5;
+    overflow: scroll;
+    padding:0px 3px;
+background-color: #eeeaea;
+}
+
+.profileNav {
+    height: auto;
+    width: 100%;
+    /* background: #fafcfd; */
+    background-color: #001529;
+  
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    border-radius: 5px;
+
+}
+
+
+.profileNav span:first-child {
+    font-weight: 550;
+    font-size: 17px;
+    color: #fff;
+}
+.profileNav span:last-child {
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.profileItems {
+    height: auto;
+    padding: 10px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+     text-transform:capitalize;
+     background-color: #001529;
+     border-radius:5px;
+     color: #fff;
+     margin: 0px 5px;
+      
+}
+
+.profileItems span:first-child {
+    margin: 5px 0;
+ 
+   
+}
+
+
+.profileItems span:last-child {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+

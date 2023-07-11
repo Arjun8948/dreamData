@@ -1,0 +1,410 @@
+.blogSection {
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.nav{
+    height: 60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.blogContaner{
+  height: calc(100% -60px);
+}
+
+.blogStyleSubContaner{
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.blogStyleSearchBox{
+ width: 100%;
+ height:auto;
+ padding: 30px 0px;
+ /* background-color: beige; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.blogStyleSearchBox div{
+    width: 45%;
+    border: 2px solid ghostwhite;
+  background-color: #fff;
+  padding: 3px  10px ;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ align-items: center;
+ border-radius:20px ;
+ }
+ 
+ 
+ .blogStyleSearchBox div input{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color:lightslategrey;
+ width: 100%;
+ padding: 8px;
+ }
+
+.blogStyleSearchBox div input::placeholder{
+    font-size: 16px;
+}
+
+.blogStyleSearchBox div button{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #FF6575;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.blogStyleSearchBox div button:hover{
+ transition: 400ms ease;
+    font-size: 14px;
+    background-color:lightgray;
+    color: #FF6575;
+   
+}
+.blogStylePostBox{
+
+    width: 100%;
+    padding: 30px 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ 
+    
+
+}
+
+.lodemore{
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:15px 0px;
+ width: 100%;
+ /* background-color: #007AFF; */
+ margin:0px 0px;
+}
+
+.lodemore span{
+    text-align: center;
+    background-color: #FF6575;
+    width:fit-content;
+ 
+    padding:9px 0px;
+    color: #fff;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 4px;
+}
+
+
+.lodemore span:hover{
+     transition: 400ms ease;   
+    opacity: 0.6;
+
+ 
+}
+
+.blogStylePostBox div{
+   margin: 10px 0px;
+    
+}
+
+
+@media (max-width:1050px){
+    .blogStyleSearchBox div{
+        width: 50%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}
+
+@media (max-width:870px){
+    .blogStyleSearchBox div{
+        width: 65%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}
+
+@media (max-width:800px){
+    .blogStyleSearchBox div{
+        width: 70%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}
+
+@media (max-width:700px){
+    .blogStyleSearchBox div{
+        width: 80%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}
+
+@media (max-width:500px){
+    .blogStyleSearchBox div{
+        width: 95%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}
+
+
+@media (max-width:360px){
+    .blogStyleSearchBox div{
+        width: 95%;
+        border: 2px solid ghostwhite;
+      background-color: #fff;
+      padding: 3px  10px ;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+     border-radius:20px ;
+     }
+     
+     .blogStyleSearchBox div input{
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color:lightslategrey;
+     width: 100%;
+     padding: 8px;
+     }
+     
+     .blogStyleSearchBox div input::placeholder{
+         font-size: 16px;
+     }
+     
+     .blogStyleSearchBox div button{
+         border: none;
+         outline: none;
+         font-size: 14px;
+         background-color: #FF6575;
+         color: #fff;
+         padding: 10px 20px;
+         border-radius: 30px;
+     }
+     
+     .blogStyleSearchBox div button:hover{
+      transition: 400ms ease;
+         font-size: 14px;
+         background-color:lightgray;
+         color: #FF6575;
+        
+     }
+     
+}

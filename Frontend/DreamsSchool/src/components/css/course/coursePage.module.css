@@ -1,0 +1,161 @@
+.courseSection{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../assets/hero.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    height: 60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.courseContaner{
+  height: calc(100% -60px);
+ 
+  display: flex;
+}
+ 
+.sliderDivContaner{
+    height:100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 5px;
+ padding-top: 5px;
+    width: 100%;
+background-color: aliceblue;
+}
+
+.sliderDiv{
+   height:240px;
+   background-color: #FFF;
+    width:100%
+}
+.courseCartHeading{
+
+    padding:10px 0px;
+    text-align: center;
+  background-color:#001529;
+  margin: 10px  1px;
+  border-radius:2px;
+  color: antiquewhite;
+  font-size:18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: italic;
+}
+ 
+.courseClassBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 20px 5px 20px 5px;
+    background-image: url('../../../assets/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 30px;
+}
+
+@media (max-width:950px){
+    .courseSort{
+        background: #060114fd;
+        margin:2%;
+       padding:30px  10px;
+        width:50%;
+        border-radius: 8px;
+       display:flex;
+       justify-content: center;
+       flex-direction: column;
+       }
+       .sliderDivContaner{
+        height:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     padding-top: 5px;
+        width: 100%;
+    background-color: aliceblue;
+    }
+    
+    .sliderDiv{
+       height:190px;
+       background-color: #FFF;
+        width:100%
+    }
+    .courseCartHeading{
+
+    
+        padding:8px 0px;
+        text-align: center;
+      background-color:#001529;
+      margin:10px 1px;
+      border-radius:2px;
+      color: antiquewhite;
+      font-size:17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      font-style: italic;
+    }
+}
+ 
+@media (max-width:650px){
+    .courseSort{
+        background: #060114fd;
+        margin:2%;
+       padding:30px  10px;
+        width:96%;
+        border-radius: 8px;
+       display:flex;
+       justify-content: center;
+       flex-direction: column;
+       }
+       .sliderDivContaner{
+        height:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     padding-top: 5px;
+        width: 100%;
+    background-color: aliceblue;
+    }
+    
+    .sliderDiv{
+       height:160px;
+       background-color: #FFF;
+        width:fit-content;
+    }
+    .courseCartHeading{
+
+    
+        padding:8px 0px;
+        text-align: center;
+      background-color:#001529;
+      margin:10px 1px;
+      border-radius:2px;
+      color: antiquewhite;
+      font-size:16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      font-style: italic;
+    }
+    
+}

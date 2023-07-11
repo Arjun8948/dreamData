@@ -1,0 +1,88 @@
+.bookMainDiv{
+    height: 100%;
+    width: 100%;
+padding: 0px 3px;
+background-color: #001529;
+
+}
+
+.bookAddbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px ;
+    background-color:#fff;
+    border-radius:5px ;
+    margin: 15px 0px;
+}
+
+.bookInfo{
+    height: 150px;
+    width: 100%;
+    margin: 0px 0px;
+    /* background-color: #001529; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.bookTable{
+    height: 59vh;
+}
+
+.bookInfo div{
+    height: 80px;
+    width: 180px;
+
+      display: flex;
+      text-align: center;
+      font-size: 16px;
+      padding:5px 0px;
+      border-radius: 4px;
+   font-style: italic;
+color: rgb(71, 70, 68);
+      flex-direction: column;
+    
+}
+
+.bookInfo div .bookcartInfo{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+   font-style: italic;
+
+}
+
+
+.formDatas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.formDatas input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.3px solid #fffbfb;
+    background: transparent;
+   background-color: transparent;
+   outline: none;
+    
+   color: #fff;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+

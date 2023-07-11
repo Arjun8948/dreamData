@@ -1,0 +1,46 @@
+.boardMainCantenar {
+  height: 100%;
+  width: 100%;
+  /* background-color: gray; */
+  padding: 0px 3px;
+}
+
+.boardSlider {
+  height: auto;
+  background-color: #001529;
+  margin-bottom:5px;
+  border-radius: 3px 5px 5px 3px;
+
+ 
+  padding: 10px 5px;
+}
+
+.boardBtn {
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #001529;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.updatediv .subdiv div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #ebe8e8;
+}
+
+.updatediv div input {
+  padding: 10px;
+  outline: none;
+  border: 0.3px solid #ebe8e8;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ebe8e8;
+}
+
+.updatediv div input::placeholder {
+  color: #ebe8e8;
+}

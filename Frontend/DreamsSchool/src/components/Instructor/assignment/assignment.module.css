@@ -1,0 +1,111 @@
+.mainContainer {
+    height: 58vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e7e5e5;
+    box-shadow: 0px 00px 1px 1px rgb(204, 202, 202);
+
+    border-radius: 8px;
+    text-align: center;
+    margin: 13px 0;
+    padding: 20px 0;
+}
+.mainContainer .imgs {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    /* background-color: #000; */
+}
+.form .formHeading {
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #321A41;
+    width: 95%;
+    margin: 10px 0px;
+    text-align: center;
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+.mainContainer div img {
+    border-radius: 8px;
+
+
+}
+
+
+.linkDiv input {
+    padding: 7px;
+    outline: none;
+    width: 100%;
+    border: 1px solid #eeeaea;
+
+    border-radius: 4px;
+}
+
+.linkDiv select {
+    padding: 10px 30px;
+
+    border-radius: 4px;
+}
+.linkDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px 0;
+
+    width: 95%;
+}
+
+.linkinput {
+    width: 95%;
+
+    margin: 6px 0;
+}
+
+
+.linkinput input {
+    padding: 10px 5px;
+    border: 1px solid #d1cdcd;
+    border-radius: 4px;
+    outline: none;
+    margin: 6px 0;
+}
+
+ .button {
+    width: 100%;
+     padding: 9px 0px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#007AFF;
+    margin:5px 0px;
+opacity: 0.6;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
+
+.button:hover{
+  transition: 400ms ease;
+  opacity: 1;
+}
+

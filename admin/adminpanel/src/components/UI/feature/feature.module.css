@@ -1,0 +1,62 @@
+.mainSection{
+    height: 100%;
+    width: 100%;
+    background-color:#001529;
+ /* overflow: scroll; */
+}
+
+.featureSection{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding:15px 20px;
+    /* background-color: aqua; */
+    width: 100%;
+ 
+    align-items: center;
+}
+
+.sectionBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.sectionTable{
+    /* height: 100%;
+    background-color: #fff; */
+ 
+   padding:10px 15px;
+   width: 100%;
+}
+
+.addfeaturediv {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 13px;
+    width: 100%;
+   padding:0px 20px;
+}
+
+.addfeaturediv  input{
+  padding: 8px ;
+  background-color: transparent;
+  width: 100%;
+  border: .3px solid #e4e5e6ee;
+  color: beige;
+  border-radius: 3px;
+  outline: none;
+}
+
+ 
+.addfeaturediv  input::placeholder{
+    color: rgb(195, 201, 201);
+    font-size: 12px;
+
+    font-weight: 500;
+}

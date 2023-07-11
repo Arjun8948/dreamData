@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, :where(.css-dev-only-do-not-override-w8mnev).ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: none;
+
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-pagination .ant-pagination-item a {
+  color:#a58a8a;
+ 
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-modal .ant-modal-content {
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+color: aliceblue;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-modal .ant-modal-header{
+background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-modal .ant-modal-title {
+color: rgb(200, 209, 218);
+font-weight: 500;
+}
+
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-pagination .ant-pagination-disabled .ant-pagination-item-link{
+  color: #eeeeee;
+}
+ 
+
+
+
+
+  
+  :where(.css-yp8pcc).ant-modal{
+      background-color: #2F4976;
+  }
+  
+  :where(.css-yp8pcc).ant-btn {
+          font-size: 14px;
+          height: 32px;
+          padding: 0px 15px;
+          border-radius: 6px;
+      
+  }
+  
+  
+  :where(.css-yp8pcc) .ant-modal-body .ant-input {
+      color: lightgray;
+      background-color: transparent;
+      font-size: 16px;
+      padding: 8px;
+  }
+  
+  
+ 
+  :where(.css-w8mnev).ant-modal .ant-modal-header{
+      background-color: transparent;
+  
+  }
+
+  :where(.css-yp8pcc).ant-modal .ant-modal-content {
+    background-color: #2F4976;
+    color:darkgray ;
+    }

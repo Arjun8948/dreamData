@@ -1,0 +1,371 @@
+.mainContener {
+    height: 100vh;
+    width: 100%;
+    background-color: #343541;
+    display: flex;
+
+}
+
+.sideBar {
+    background-color: black;
+    flex: 2.4;
+    width: 100%;
+
+}
+.sideBarInput {
+    width: 80%;
+
+    margin: 20px;
+}
+
+.sideBarInput input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border-radius: 3px;
+    border: 3px solid #fff;
+    padding: 12px 20%;
+    color: antiquewhite;
+    font-size: 16px;
+
+
+}
+
+.sideBarInput input::placeholder {
+    font-size: 16px;
+    word-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    color: #fff;
+}
+
+
+.mainSection {
+    flex: 8;
+    background-color: #343541;
+    overflow: scroll;
+}
+
+.mainSection .mainHeading {
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ECECF1;
+}
+.mainResult {
+    height:  fit-content;
+    overflow: scroll;
+
+}
+
+.textExample {
+    height:  400px;
+    /* height: 500px; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+
+.textExample .aiHeading {
+    color: #ECECF1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.textMainDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textDiv {
+    width: 270px;
+    background-color: #3e3f4b81;
+    text-align: center;
+    line-height: 22px;
+    padding: 16px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #ECECF1;
+}
+
+.textDiv:hover {
+    width: 270px;
+
+    background-color: #3e3f4bf1;
+    text-align: center;
+    line-height: 22px;
+    padding: 16px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #ECECF1;
+}
+
+
+.inputSearchBarDiv {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.inputSearchBarDiv div {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #40414F;
+    padding: 2px 20px;
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.inputSearchBarDiv div input {
+    font-size: 16px;
+    width: 100%;
+    padding: 18px 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #ECECF1;
+}
+
+.inputSearchBarDiv div input::placeholder {
+    color: #ECECF1;
+    font-size: 18px;
+}
+
+.inputSearchBarDiv div img {
+    height: 25px;
+    width: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.resultContenar {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+}
+.result div {
+
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #40414F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: justify;
+
+}
+
+
+.closebtn {
+    color: gray;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    transition: 450ms ease;
+    color: #FF6575;
+}
+
+
+@media(max-width:900px) {
+    .sideBar {
+        background-color: black;
+        flex: 2;
+        display: none;
+    }
+}
+
+
+@media(max-width:450px) {
+    .sideBar {
+        background-color: black;
+        flex: 2;
+        display: none;
+    }
+
+    .sideBarInput input {
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        border-radius: 3px;
+        border: 3px solid #fff;
+        padding: 12px 20%;
+        color: antiquewhite;
+        font-size: 16px;
+
+
+    }
+
+    .sideBarInput input::placeholder {
+        font-size: 16px;
+        word-spacing: 10px;
+        font-family: 'Roboto', sans-serif;
+
+        color: #fff;
+    }
+
+
+    .mainSection {
+        flex: 8;
+        background-color: #343541;
+        flex-wrap: wrap;
+    }
+
+    .mainSection .mainHeading {
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #ECECF1;
+    }
+    .mainResult {
+        height: 550px;
+        overflow: scroll;
+
+    }
+
+    .textExample {
+        height: auto;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+
+    }
+
+
+    .textExample .aiHeading {
+        color: #ECECF1;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .textMainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textDiv {
+        width: 360px;
+        background-color: #3e3f4b81;
+        text-align: center;
+        line-height: 22px;
+        padding: 16px 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        color: #ECECF1;
+    }
+
+    .textDiv:hover {
+        width: 360px;
+        background-color: #3e3f4bf1;
+        text-align: center;
+        line-height: 22px;
+        padding: 16px 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        color: #ECECF1;
+    }
+
+
+    .inputSearchBarDiv {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .inputSearchBarDiv div {
+        width: 90%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #40414F;
+        padding: 2px 20px;
+
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .inputSearchBarDiv div input {
+        font-size: 16px;
+        width: 100%;
+        padding: 18px 0;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: #ECECF1;
+    }
+
+    .inputSearchBarDiv div input::placeholder {
+        color: #ECECF1;
+        font-size: 18px;
+    }
+
+    .inputSearchBarDiv div img {
+        height: 25px;
+        width: 25px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .result {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .resultContenar {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+
+    }
+    .result div {
+
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        background-color: #40414F;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-align: justify;
+
+    }
+
+
+}

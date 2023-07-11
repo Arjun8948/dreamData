@@ -1,0 +1,175 @@
+.instractorMainContenair {
+    background-color: #001529;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.InstractorDeteils {
+    height: auto;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.addbtn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+ padding: 20px 30px;
+
+}
+.addbtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1677FF;
+    border: none;
+    color: #fff;
+    gap: 2px;
+     padding: 6px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addbtn button:hover{
+    background-color: #0a60cf;
+    transition: 250ms ease-in-out
+ }
+ 
+
+.InstractorDeteils div{
+    height:90px;
+    width: 17%;
+    background-color: #e4e0e023;
+    border-radius: 5px;
+    border: 0.5px solid hsl(0, 4%, 90%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    /* font-style: italic; */
+}
+
+.Instructor {
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 10px;
+  gap: 10px;
+    flex-direction: column;
+}
+
+
+.Instructor table {
+    border: none;
+    width: 100%;
+    background-color: #e4e0e023;
+    /* padding: 10px; */
+    text-align: center;
+    text-transform: capitalize;
+   
+    border-radius: 5px 5px 0 0;
+}
+
+.Instructor table thead {
+    border: none;
+    width: 100%;
+
+    border-radius: 5px 5px 0 0;
+
+    color: antiquewhite;
+    border: none;
+}
+
+.Instructor table thead th {
+    padding: 10px;
+    color: rgb(153, 151, 151);
+ 
+}
+.mainTableContairs {
+    display: flex;
+    padding: 10px;
+
+}
+
+
+.Instructor table tbody {
+
+    background-color: #fff;
+}
+
+
+.Instructor table tbody td {
+    padding: 10px 2px;
+    border-bottom: 0.3px solid #dbd9d9;
+    /* font-style: italic; */
+    font-size: 14px;
+}
+
+.addInstructorSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px ;
+}
+
+
+.addInstructorSection div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width:45%;
+} 
+
+.addInstructorSection div input{
+    padding:8px 10px;
+    width: 100%;
+    outline: none;
+    border: 0.2px solid #f1efef;
+ color: aliceblue;
+    background-color: transparent;
+    border-radius: 3px;
+  
+
+}
+.addInstructorSection div select {
+    color: aliceblue;
+    background-color:transparent;
+    padding:8px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 0.2px solid #f1efef;
+
+}
+.addInstructorSection div select option{
+    color: #1f0101ee;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.addInstructorSection div input::placeholder{
+    color: aliceblue;
+
+}
+.addInstructorSectionFile{
+   
+    margin: 10px 0px ;
+    border: 0.2px solid #f1efef;
+ 
+    /* background-color: #fff; */
+    padding:2px 5px 5px 5px;
+    border-radius: 3px;
+
+
+}

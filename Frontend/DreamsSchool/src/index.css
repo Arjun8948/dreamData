@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900 &family=Nunito+Sans:wght@400;500;800&family=Poppins:wght@500&family=Roboto:ital, wght@0, 400;0, 700;0, 900;1, 700;1, 900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    margin: 23px 0;
+    cursor: pointer;
+    color: #685F78;
+}
+
+ul li a {
+
+    color: #685F78;
+}
+input[type="tel"] {
+    padding: 12px 7px;
+
+}
+ 
+a {
+    color: black;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-input-number-group .ant-input-number-group-addon:first-child {
+    color:aliceblue
+}
+
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-modal .ant-modal-content {
+    background-color: #2F4976;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-modal .ant-modal-header {
+    padding: 7px 5px;
+
+
+    color: #7f99c5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 27%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FF6575;
+    margin-bottom: 20px;
+}
+.loding{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:where(.css-w8mnev).ant-modal .ant-modal-close-x svg {
+    color: #ffffff;
+}
+
+:where(.css-w8mnev).ant-result .ant-result-500 {
+    padding: 10px;
+}
+
+ 
+:where(.css-dev-only-do-not-override-yp8pcc).ant-result-500 {
+    padding: 10px;
+}
+ 
+:where(.css-dev-only-do-not-override-yp8pcc) .ant-modal-body {
+   
+    border-radius: 8px;
+    color: #2F4976;
+     margin: 10px 0px;
+  
+
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc) .ant-modal-body .ant-input::placeholder {
+
+    color: lightgray;
+  
+}
+
+ 
+:where(.css-dev-only-do-not-override-yp8pcc) .ant-modal-body .ant-input {
+    color: lightgray;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+ 
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-input-group .ant-input-group-addon:first-child{
+    color: #ffffff;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-btn-default {
+    background-color: #ff4d4f;
+    color: #ffffff;
+    border: none;
+    opacity: 0.9;
+    padding:0px 10px;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-btn-default:hover {
+    background-color: #ffffff;
+    opacity: 0.8;
+    color: #ff4d4f;
+    
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-input-number .ant-input-number-input{
+    color: #ffffff;
+    font-size: 16px;
+   
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-btn {
+    font-size: 14px;
+    height: 32px;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+@media(max-width:1150px) {
+
+    ul li {
+        list-style: none;
+        margin: 22px 0;
+        cursor: pointer;
+        color: #685F78;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:950px) {
+    input[type="tel"] {
+        padding: 10px 5px;
+        width: 100%;
+    }
+    ul li {
+        list-style: none;
+        margin: 20px 0;
+        cursor: pointer;
+        color: #685F78;
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:388px) {
+    input[type="tel"] {
+        padding: 10px 5px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width:580px) {
+    input[type="tel"] {
+        padding: 10px 5px;
+        width: 100%;
+    }
+
+    :where(.css-w8mnev).ant-modal .ant-modal-content {
+        background-color: #2F4976 !important;
+        
+    }
+    :where(.css-dev-only-do-not-override-yp8pcc) {
+        padding: 7px 5px;
+    
+    
+        color: #7f99c5;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        width: 50%;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #FF6575;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media(max-width:778px) {
+    input[type="tel"] {
+        padding: 10px 5px;
+        width: 100%;
+    }
+}
+
+@media(max-width:450px) {
+
+    ul li {
+        list-style: none;
+        margin: 20px 0;
+        cursor: pointer;
+        color: #685F78;
+
+    }
+
+}
+
+
+button {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.material-symbols-outlined {
+    background-color: #FF6575;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 80px;
+
+}
+
+@media(max-width: 450px) {
+    .material-symbols-outlined {
+        background-color: #FF6575;
+        color: #ffffff;
+        padding: 8px;
+        border-radius: 80px;
+        width: 100%;
+
+    }
+
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark,
+ :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark>.ant-menu {
+    color: rgba(255, 255, 255, 0.65);
+    background: #fafcfd;
+    height: 100%;
+    padding: 10px 25px;
+  
+  height:86%;
+  overflow: scroll;
+margin: 10px 0px;
+}
+
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu .ant-menu-item, 
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu .ant-menu-submenu,
+ :where(.css-dev-only-do-not-override-yp8pcc).ant-menu .ant-menu-submenu-title {
+    border-radius: 5px;
+    margin:16px 0px;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+    background-color: #1c012c;
+
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 6px 0px;
+    
+}
+
+
+
+ 
+ 
+
+:where(.css-yp8pcc).ant-btn {
+        font-size: 14px;
+        height: 32px;
+        padding: 0px 15px;
+        border-radius: 6px;
+    
+}
+
+
+:where(.css-yp8pcc) .ant-modal-body .ant-input {
+    color: lightgray;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+:where(.css-yp8pcc) .ant-modal-body .ant-input {
+    color: lightgray;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px;
+}
+
+:where(.css-yp8pcc) .ant-modal-body .ant-modal-content {
+    color: lightgray;
+    background-color: #2F4976;
+    font-size: 16px;
+    padding: 8px;
+    color: #fafcfd !important;
+}
+ 
+:where(.css-w8mnev).ant-modal .ant-modal-header{
+    background-color: transparent;
+
+}
+
+:where(.css-w8mnev).ant-modal .ant-modal-title{
+    background-color: transparent;
+
+}
